@@ -39,3 +39,17 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Claude AI
+.claude/
+CLAUDE.md
+AGENTS.md
+
+# IDE
+.idea/
+
+# Component source descriptions (dev only)
+components-descriptions/
+
+# Duplicate avatar
+public/avatar.png
