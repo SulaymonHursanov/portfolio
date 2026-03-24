@@ -3,6 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { motion, Variants } from "framer-motion";
 import type { LucideIcon } from "lucide-react";
 import { ArrowUpRight, Code2, Link, Mail, Phone } from "lucide-react";
+import Image from "next/image";
 
 type Highlight = {
   title: string;
@@ -167,9 +168,11 @@ export function GlassmorphismPortfolioBlock() {
                     className="relative mb-6"
                   >
                     <div className="absolute left-1/2 top-1/2 h-32 w-32 -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary/20 blur-2xl" />
-                    <img
+                    <Image
                       src="/avatar.jpg"
                       alt="Sulaymon Khursanov"
+                      width={128}
+                      height={128}
                       className="relative h-32 w-32 rounded-full border border-border/40 object-cover shadow-[0_25px_60px_rgba(15,23,42,0.3)] dark:shadow-[0_25px_60px_rgba(0,0,0,0.6)]"
                     />
                   </motion.div>
