@@ -169,7 +169,7 @@ export function GlassmorphismPortfolioBlock() {
                   >
                     <div className="absolute left-1/2 top-1/2 h-32 w-32 -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary/20 blur-2xl" />
                     <Image
-                      src="/avatar.jpg"
+                      src="/portfolio/avatar.jpg"
                       alt="Sulaymon Khursanov"
                       width={128}
                       height={128}
